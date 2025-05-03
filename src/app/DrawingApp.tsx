@@ -591,7 +591,7 @@ export default function DrawingApp() {
               initial={{ opacity: 0, scale: 0.8 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ delay: 0.4, duration: 0.6 }}
-              src="/api/placeholder/600/400" 
+              src="https://cdn.mos.cms.futurecdn.net/e8JNwwMJA7Jd6iXy5SjVYd.jpg" 
               alt="Drawing application preview" 
               className="rounded-lg shadow-xl w-full"
             />

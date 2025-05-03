@@ -1,36 +1,41 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🎨 Drawing App – Built with React, TypeScript, and Tailwind CSS
 
-## Getting Started
+A fully functional, commercial-grade drawing interface where users can sketch digitally with tools like pencil, brush, shapes, and more — built as a single-page React app using only raw Tailwind CSS.
 
-First, run the development server:
+> ✨ Designed for performance, polish, and pixel-perfect UX.  
+> 🚀 Live Demo: [https://pramothsgp-drawing-app.vercel.app/](https://pramothsgp-drawing-app.vercel.app/)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📦 Tech Stack
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- ⚛️ **React** + **TypeScript**
+- 🎨 **Tailwind CSS** (no external UI libraries)
+- 🖼️ **Canvas API**
+- 💡 **framer-motion** for animations
+- 👤 **randomuser.me** / **Unsplash** for avatar/image mocks
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🛠 Features
 
-To learn more about Next.js, take a look at the following resources:
+✅ Responsive landing section with heading, subheading & CTA  
+✅ Custom canvas with:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- 🖊️ Freehand drawing (pencil tool)
+- 🎯 Color picker palette
+- 📏 Adjustable brush size
+- 🧽 Eraser tool
+- ⬛ Shape drawing: rectangle, circle
+- ↩️ Undo / ↪️ Redo / 🧹 Clear all
+- 💾 Save drawing as image (`PNG`)
+- 📑 Layer manager (toggle visibility, reorder)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+✅ Navbar and footer (with branding + social links)  
+✅ Tooltips and hover animations  
+✅ Clean, modern, mobile-first design  
+✅ All code in a single `.tsx` file (`DrawingApp.tsx`)  
+✅ Deploy-ready for Vercel or static hosting
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
